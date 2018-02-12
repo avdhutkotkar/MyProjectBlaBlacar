@@ -86,6 +86,11 @@ public class AddNewCar {
 			src.getMyScreenShot(driver);
 		}
 		Assert.assertTrue(testcaseRes);
-	}	
+	}
+	
+	public void deleteCar(){
+		
+	}
+	
 
 }
