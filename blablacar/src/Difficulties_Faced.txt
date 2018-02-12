@@ -1,0 +1,23 @@
+
+
+1. Reading Excel Sheet :- 
+
+Excel sheet's Cell Contains : 08412950036 : if starts with 0 .. if this is what Was entered while Sign Up
+
+Problem in handling integer which Starts with 0..
+
+Current Analysis:
+ - getStringCellValue  -- illegal state excption for cell containing other types
+ - getRawValue --  returns number without 0 in front... 8412950036
+ - getNumbericValue -- returns numberic Value in Double not usable -- 8.412950038E9	
+ - toString -- returns Numberic value to String not usable.. 8.412950038E9
+
+while assertion need to check exact entered details entered by user while Sign Up... 
+-- Can't find solution yet
+
+2. Wait... as we are implementing Hybrid framework.. creating small methods inside POM library pages
+   So if in script implicite wait is defined after calling function that wait is no more applicable
+   as method gets called and we have to add wait for every methods....
+   Need to check for best appraoch..
+   
+

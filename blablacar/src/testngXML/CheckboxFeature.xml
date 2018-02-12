@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Automation suite">
+  <test verbose="2" name="Create User feature">
+    <classes>
+      
+      <class name="basic.MyCheckBox"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

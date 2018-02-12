@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Continue with Email on Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Entering in UserName TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Entering in UserPassword TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button on Login Form]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Log in Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Drop Drown for more Actions]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add New Car Button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Number Plate Textbox...]]>
+    </line>
+    <line>
+      <![CDATA[Setting value in Number Plate Textbox..]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Continue Button on Add Number Plate Page]]>
+    </line>
+    <line>
+      <![CDATA[Entering Car Model value in search box]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Car Model HYUNDAI]]>
+    </line>
+    <line>
+      <![CDATA[Entering Car Model value in search box]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Car Model Grand i10]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Car Type Hatchback]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Car Color  Red]]>
+    </line>
+    <line>
+      <![CDATA[Entering Manufacturing Year : 2017]]>
+    </line>
+    <line>
+      <![CDATA[Waiting For Submit Button to get Enabled!]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Submit Button..]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112006" started-at="2018-02-06T03:47:09Z" finished-at="2018-02-06T03:49:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112006" started-at="2018-02-06T03:47:09Z" finished-at="2018-02-06T03:49:01Z">
+      <class name="blablacarB13.tests.profile.personalInfo.car.AddNewCar">
+        <test-method status="PASS" signature="LoginAndNavigateToCar()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="LoginAndNavigateToCar" is-config="true" duration-ms="97484" started-at="2018-02-06T09:17:09Z" finished-at="2018-02-06T09:18:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Continue with Email on Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserName TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserPassword TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button on Login Form]]>
+            </line>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Log in Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Drop Drown for more Actions]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAndNavigateToCar -->
+        <test-method status="PASS" signature="addNewCarValidDetails()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="addNewCarValidDetails" duration-ms="13772" started-at="2018-02-06T09:18:46Z" finished-at="2018-02-06T09:19:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Add New Car Button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Number Plate Textbox...]]>
+            </line>
+            <line>
+              <![CDATA[Setting value in Number Plate Textbox..]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Continue Button on Add Number Plate Page]]>
+            </line>
+            <line>
+              <![CDATA[Entering Car Model value in search box]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Car Model HYUNDAI]]>
+            </line>
+            <line>
+              <![CDATA[Entering Car Model value in search box]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Car Model Grand i10]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Car Type Hatchback]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Car Color  Red]]>
+            </line>
+            <line>
+              <![CDATA[Entering Manufacturing Year : 2017]]>
+            </line>
+            <line>
+              <![CDATA[Waiting For Submit Button to get Enabled!]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Submit Button..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewCarValidDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="closeBrowser" is-config="true" duration-ms="653" started-at="2018-02-06T09:19:00Z" finished-at="2018-02-06T09:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blablacarB13.tests.profile.personalInfo.car.AddNewCar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

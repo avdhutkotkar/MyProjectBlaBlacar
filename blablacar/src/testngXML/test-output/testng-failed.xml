@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [My Regression Automation suite]">
+  <test name="login feature and Verify details of Signed in User(failed)">
+    <classes>
+      <class name="blablacarB13.tests.profile.personalInfo.VerifyDifferentUserCreation">
+        <methods>
+          <include name="testUserDetailsOnForm" invocation-numbers="1"/>
+          <include name="CloseBrowser"/>
+          <include name="LuanchBrowser"/>
+        </methods>
+      </class> <!-- blablacarB13.tests.profile.personalInfo.VerifyDifferentUserCreation -->
+    </classes>
+  </test> <!-- login feature and Verify details of Signed in User(failed) -->
+</suite> <!-- Failed suite [My Regression Automation suite] -->

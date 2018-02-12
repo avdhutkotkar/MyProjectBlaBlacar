@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Regression Automation suite">
+  <test verbose="2" name="Create User feature">
+    <classes>
+      <class name="basic.iteration1.MyMultipleWindow"/>
+      <class name="basic.iter1.My_moneycontrol_table"/>
+    
+    </classes>
+  </test> <!-- Default test -->
+
+</suite> <!-- Default suite -->

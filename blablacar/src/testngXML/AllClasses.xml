@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Regression Automation suite">
+  <test verbose="2" name="login feature and Verify details of Signed in User">
+    <classes>
+      <class name="blablacarB13.tests.profile.personalInfo.VerifyPersonalInfoPageDetails"/>
+      <class name="blablacarB13.tests.profile.personalInfo.VerifyDifferentUserCreation"/>
+      <class name="blablacarB13.tests.common.LoginFeature"/>
+      
+    </classes>
+  </test> <!-- Default test -->   
+</suite> <!-- Default suite -->

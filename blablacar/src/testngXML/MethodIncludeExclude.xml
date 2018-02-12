@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="TestNGB9.ParallelMethod">
+        <methods>
+          <include name="myTest1"/>
+          <exclude name="myTest2"/>
+          <exclude name="myTest3"/>
+          <include name="myTest4"/>
+        </methods>
+      </class> <!-- TestNGExample.TestNGExample1 -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
