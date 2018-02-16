@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [My Regression Automation suite]">
+  <test name="login feature and Verify details of Signed in User(failed)">
     <classes>
-      <class name="blablacarB13.tests.profile.personalInfo.car.AddNewCar">
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation">
         <methods>
-          <include name="addNewCarValidDetails"/>
-          <include name="LoginAndNavigateToCar"/>
-          <include name="closeBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="LuanchBrowser"/>
+          <include name="testUserDetailsOnForm" invocation-numbers="1"/>
         </methods>
-      </class> <!-- blablacarB13.tests.profile.personalInfo.car.AddNewCar -->
+      </class> <!-- blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation -->
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="testPersonalInfoUI"/>
+          <include name="LaunchBrowserLogin"/>
+        </methods>
+      </class> <!-- blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails -->
+      <class name="blablacarB13.tests.common.LoginFeature">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="logInwithFacebookInvalidDetails"/>
+          <include name="logInwithFacebookValidDetails"/>
+          <include name="LaunchBrowser"/>
+          <include name="logInwithUserDetails"/>
+        </methods>
+      </class> <!-- blablacarB13.tests.common.LoginFeature -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- login feature and Verify details of Signed in User(failed) -->
+</suite> <!-- Failed suite [My Regression Automation suite] -->

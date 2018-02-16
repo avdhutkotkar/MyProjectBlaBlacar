@@ -1,5 +1,6 @@
 package blablacarB13.tests.common;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -23,8 +24,9 @@ public class LoginFeature {
 	WebDriver driver;
 	@BeforeMethod
 	public void LaunchBrowser(){
+		String basePath = new File("").getAbsolutePath();
 		PropertiesOperation config = new PropertiesOperation();
-		System.setProperty(config.getRadicalValueBykey("geckoDriver"), config.getRadicalValueBykey("geckoloc"));
+		System.setProperty(config.getRadicalValueBykey("geckoDriver"),basePath.concat(config.getRadicalValueBykey("geckoloc")));
 		driver = new FirefoxDriver();
 //		System.setProperty(config.getRadicalValueBykey("chromedriver"), config.getRadicalValueBykey("chromedriverloc"));
 //		driver = new ChromeDriver();

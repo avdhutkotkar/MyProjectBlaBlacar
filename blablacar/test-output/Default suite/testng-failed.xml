@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="blablacarB13.tests.profile.personalInfo.car.AddNewCar">
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation">
         <methods>
-          <include name="addNewCarValidDetails"/>
-          <include name="LoginAndNavigateToCar"/>
-          <include name="closeBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="LuanchBrowser"/>
+          <include name="testUserDetailsOnForm"/>
         </methods>
-      </class> <!-- blablacarB13.tests.profile.personalInfo.car.AddNewCar -->
+      </class> <!-- blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

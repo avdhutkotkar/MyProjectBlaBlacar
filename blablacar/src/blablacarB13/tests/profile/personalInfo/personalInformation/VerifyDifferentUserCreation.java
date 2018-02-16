@@ -1,5 +1,7 @@
 package blablacarB13.tests.profile.personalInfo.personalInformation;
 
+import java.io.File;
+
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,7 +14,7 @@ import org.testng.asserts.SoftAssert;
 
 import blablacarB13.POMLib.common.HeaderPage;
 import blablacarB13.POMLib.common.LoginPage;
-import blablacarB13.POMLib.profile.profileInfo.PersonalInfoPage;
+import blablacarB13.POMLib.profile.profileInfo.personalInformation.PersonalInfoPage;
 import blablacarB13.utilities.PropertiesOperation;
 import blablacarB13.utilities.ReadExcelSheet;
 import blablacarB13.utilities.ScreenShotUtil;
@@ -23,8 +25,9 @@ public class VerifyDifferentUserCreation {
 	
 	@BeforeMethod
 	public void LuanchBrowser(){ 
+		String basePath = new File("").getAbsolutePath();
 		PropertiesOperation config = new PropertiesOperation();
-		System.setProperty(config.getRadicalValueBykey("geckoDriver"), config.getRadicalValueBykey("geckoloc"));
+		System.setProperty(config.getRadicalValueBykey("geckoDriver"),basePath.concat(config.getRadicalValueBykey("geckoloc")));
 		driver = new FirefoxDriver();
 		driver.get(config.getRadicalValueBykey("hostURL"));
 	}
@@ -36,7 +39,11 @@ public class VerifyDifferentUserCreation {
 	
 	@DataProvider (name="userDetails")
 	public Object[][] userdetails1(){
-		ReadExcelSheet readExcel = new ReadExcelSheet("D:\\Eclipse_WorkSpace\\blablacar\\src\\blablacarB13\\testdata\\profile\\profileInfo\\personalInformation\\VerifyDifferentUserCreation.xlsx");
+		String basePath = new File("").getAbsolutePath();
+		String ExcelSheetPath = basePath.concat("\\src\\blablacarB13\\testdata\\profile\\profileInfo\\personalInformation\\VerifyDifferentUserCreation.xlsx");
+		ReadExcelSheet readExcel = new ReadExcelSheet(ExcelSheetPath);
+		//ReadExcelSheet readExcel = new ReadExcelSheet("D:\\Eclipse_WorkSpace\\blablacar\\src\\blablacarB13\\testdata\\profile\\profileInfo\\personalInformation\\VerifyDifferentUserCreation.xlsx");
+		
 		int rowCount = readExcel.getRowCount(0);
 		int columnCount = readExcel.getColumnCount(0);
 		Object[][] obj = new Object[rowCount][columnCount];

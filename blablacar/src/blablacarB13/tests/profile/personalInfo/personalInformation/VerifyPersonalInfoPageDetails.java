@@ -1,5 +1,7 @@
 package blablacarB13.tests.profile.personalInfo.personalInformation;
 
+import java.io.File;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import blablacarB13.POMLib.common.LoginPage;
-import blablacarB13.POMLib.profile.profileInfo.PersonalInfoPage;
+import blablacarB13.POMLib.profile.profileInfo.personalInformation.PersonalInfoPage;
 import blablacarB13.utilities.PropertiesOperation;
 import blablacarB13.utilities.ScreenShotUtil;
 import blablacarB13.utilities.UserDetails;
@@ -23,8 +25,9 @@ public class VerifyPersonalInfoPageDetails {
 	// Launches Browser and logs into the application
 	@BeforeMethod
 	public void LaunchBrowserLogin(){
+		String basePath = new File("").getAbsolutePath();
 		PropertiesOperation config = new PropertiesOperation();
-		System.setProperty(config.getRadicalValueBykey("geckoDriver"), config.getRadicalValueBykey("geckoloc"));
+		System.setProperty(config.getRadicalValueBykey("geckoDriver"),basePath.concat(config.getRadicalValueBykey("geckoloc")));
 		driver = new FirefoxDriver();
 		driver.get(config.getRadicalValueBykey("hostURL"));
 		

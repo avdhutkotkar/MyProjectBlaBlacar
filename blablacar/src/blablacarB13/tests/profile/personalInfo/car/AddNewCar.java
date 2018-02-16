@@ -1,5 +1,6 @@
 package blablacarB13.tests.profile.personalInfo.car;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -24,10 +25,11 @@ public class AddNewCar {
 	WebDriver driver;
 	@BeforeMethod
 	public void LoginAndNavigateToCar(){
-		PropertiesOperation prop = new PropertiesOperation();
-		System.setProperty(prop.getRadicalValueBykey("geckoDriver"), prop.getRadicalValueBykey("geckoloc"));
+		String basePath = new File("").getAbsolutePath();
+		PropertiesOperation config = new PropertiesOperation();
+		System.setProperty(config.getRadicalValueBykey("geckoDriver"),basePath.concat(config.getRadicalValueBykey("geckoloc")));
 		driver = new FirefoxDriver();
-		driver.get(prop.getRadicalValueBykey("hostURL"));
+		driver.get(config.getRadicalValueBykey("hostURL"));
 		LoginPage logIn = new LoginPage();
 		logIn.loginWithEmail(driver, "avdhut.kotkar@yahoo.com", "selenium@1793");
 		HeaderPage header = new HeaderPage();
@@ -90,6 +92,9 @@ public class AddNewCar {
 	
 	public void deleteCar(){
 		
+		
+		
+		//testtt
 	}
 	
 

@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="5" ignored="0" total="6" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Continue with Email on Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Entering in UserName TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Entering in UserPassword TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button on Login Form]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Log in Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Clicking On Profile Tab]]>
+    </line>
+    <line>
+      <![CDATA[Exception observedorg.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@id='myTab']/li/a[contains(text(),'Profile')]For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.VxElhwKoq28U, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 9f12b231-07b4-412f-95e0-b87e7b81c7a4*** Element info: {Using=xpath, value=//ul[@id='myTab']/li/a[contains(text(),'Profile')]}]]>
+    </line>
+    <line>
+      <![CDATA[Taking ScreenShot....!]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_BlaBlaCar__the_trusted_community_for_sharing_your_city_to_city_car_travel___World_s_Largest_Carpooling_Community_20180217_010717.png]]>
+    </line>
     <line>
       <![CDATA[Click on Log in Button on Header Page]]>
     </line>
@@ -26,51 +65,152 @@
       <![CDATA[Clicking on Drop Drown for more Actions]]>
     </line>
     <line>
-      <![CDATA[Clicking on Add New Car Button]]>
+      <![CDATA[Returning Current User's Gender Type]]>
     </line>
     <line>
-      <![CDATA[Waiting for Number Plate Textbox...]]>
+      <![CDATA[Returning Current User's First Name ]]>
     </line>
     <line>
-      <![CDATA[Setting value in Number Plate Textbox..]]>
+      <![CDATA[Returning Current User's Last Name ]]>
     </line>
     <line>
-      <![CDATA[Clicking on Continue Button on Add Number Plate Page]]>
+      <![CDATA[Returning Current User's Email]]>
     </line>
     <line>
-      <![CDATA[Entering Car Model value in search box]]>
+      <![CDATA[Returning Current User's Mobile No. ]]>
     </line>
     <line>
-      <![CDATA[Selecting Car Model HYUNDAI]]>
+      <![CDATA[Click on Log in Button on Header Page]]>
     </line>
     <line>
-      <![CDATA[Entering Car Model value in search box]]>
+      <![CDATA[Clicking on Continue with Email on Login Page]]>
     </line>
     <line>
-      <![CDATA[Selecting Car Model Grand i10]]>
+      <![CDATA[Entering in UserName TextBox]]>
     </line>
     <line>
-      <![CDATA[Selecting Car Type Hatchback]]>
+      <![CDATA[Entering in UserPassword TextBox]]>
     </line>
     <line>
-      <![CDATA[Selecting Car Color  Red]]>
+      <![CDATA[Clicking on Login Button on Login Form]]>
     </line>
     <line>
-      <![CDATA[Entering Manufacturing Year : 2017]]>
+      <![CDATA[Click on Log in Button on Header Page]]>
     </line>
     <line>
-      <![CDATA[Waiting For Submit Button to get Enabled!]]>
+      <![CDATA[Log in Successfull]]>
     </line>
     <line>
-      <![CDATA[Clicking on Submit Button..]]>
+      <![CDATA[Clicking on Drop Drown for more Actions]]>
+    </line>
+    <line>
+      <![CDATA[Returning Current User's Gender Type]]>
+    </line>
+    <line>
+      <![CDATA[Returning Current User's First Name ]]>
+    </line>
+    <line>
+      <![CDATA[Returning Current User's Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[Returning Current User's Email]]>
+    </line>
+    <line>
+      <![CDATA[Returning Current User's Mobile No. ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[checking if Connect With FaceBook is present on Login Form]]>
+    </line>
+    <line>
+      <![CDATA[Taking ScreenShot....!]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_010941.png]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.ehFCjkvaWeFx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9968, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 78c7d9ca-de47-4b5b-8f34-4a77fd4e0c69*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[Entering in UserName TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Taking ScreenShot....!]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011017.png]]>
+    </line>
+    <line>
+      <![CDATA[Checking If Dashboard Tab present ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log in Button on Header Page]]>
+    </line>
+    <line>
+      <![CDATA[checking if Connect With FaceBook is present on Login Form]]>
+    </line>
+    <line>
+      <![CDATA[Taking ScreenShot....!]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011104.png]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.dmv1qJG3U7yB, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=11404, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 3d2e2a5f-a415-49cf-a95f-657b3b1c922b*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="112006" started-at="2018-02-06T03:47:09Z" finished-at="2018-02-06T03:49:01Z">
+  <suite name="My Regression Automation suite" duration-ms="323890" started-at="2018-02-16T19:35:43Z" finished-at="2018-02-16T19:41:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="112006" started-at="2018-02-06T03:47:09Z" finished-at="2018-02-06T03:49:01Z">
-      <class name="blablacarB13.tests.profile.personalInfo.car.AddNewCar">
-        <test-method status="PASS" signature="LoginAndNavigateToCar()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="LoginAndNavigateToCar" is-config="true" duration-ms="97484" started-at="2018-02-06T09:17:09Z" finished-at="2018-02-06T09:18:46Z">
+    <test name="login feature and Verify details of Signed in User" duration-ms="323890" started-at="2018-02-16T19:35:43Z" finished-at="2018-02-16T19:41:07Z">
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation">
+        <test-method status="PASS" signature="LuanchBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="LuanchBrowser" is-config="true" duration-ms="20469" started-at="2018-02-17T01:07:34Z" finished-at="2018-02-17T01:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchBrowser -->
+        <test-method status="PASS" signature="testUserDetailsOnForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="testUserDetailsOnForm" duration-ms="20064" started-at="2018-02-17T01:07:55Z" data-provider="userDetails" finished-at="2018-02-17T01:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avdhut.kotkar@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium@1793]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Avdhut]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kotkar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[avdhut.kotkar@yahoo.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8412950036]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Click on Log in Button on Header Page]]>
@@ -96,56 +236,292 @@
             <line>
               <![CDATA[Clicking on Drop Drown for more Actions]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- LoginAndNavigateToCar -->
-        <test-method status="PASS" signature="addNewCarValidDetails()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="addNewCarValidDetails" duration-ms="13772" started-at="2018-02-06T09:18:46Z" finished-at="2018-02-06T09:19:00Z">
-          <reporter-output>
             <line>
-              <![CDATA[Clicking on Add New Car Button]]>
+              <![CDATA[Returning Current User's Gender Type]]>
             </line>
             <line>
-              <![CDATA[Waiting for Number Plate Textbox...]]>
+              <![CDATA[Returning Current User's First Name ]]>
             </line>
             <line>
-              <![CDATA[Setting value in Number Plate Textbox..]]>
+              <![CDATA[Returning Current User's Last Name ]]>
             </line>
             <line>
-              <![CDATA[Clicking on Continue Button on Add Number Plate Page]]>
+              <![CDATA[Returning Current User's Email]]>
             </line>
             <line>
-              <![CDATA[Entering Car Model value in search box]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Car Model HYUNDAI]]>
-            </line>
-            <line>
-              <![CDATA[Entering Car Model value in search box]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Car Model Grand i10]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Car Type Hatchback]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Car Color  Red]]>
-            </line>
-            <line>
-              <![CDATA[Entering Manufacturing Year : 2017]]>
-            </line>
-            <line>
-              <![CDATA[Waiting For Submit Button to get Enabled!]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Submit Button..]]>
+              <![CDATA[Returning Current User's Mobile No. ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addNewCarValidDetails -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.car.AddNewCar@1877ab81]" name="closeBrowser" is-config="true" duration-ms="653" started-at="2018-02-06T09:19:00Z" finished-at="2018-02-06T09:19:01Z">
+        </test-method> <!-- testUserDetailsOnForm -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="CloseBrowser" is-config="true" duration-ms="10943" started-at="2018-02-17T01:08:15Z" finished-at="2018-02-17T01:08:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- blablacarB13.tests.profile.personalInfo.car.AddNewCar -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="LuanchBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="LuanchBrowser" is-config="true" duration-ms="16541" started-at="2018-02-17T01:08:26Z" finished-at="2018-02-17T01:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchBrowser -->
+        <test-method status="FAIL" signature="testUserDetailsOnForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="testUserDetailsOnForm" duration-ms="17933" started-at="2018-02-17T01:08:42Z" data-provider="userDetails" finished-at="2018-02-17T01:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amrutakotkar3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amruta@38]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amruta]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kotkar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amrutakotkar3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8412950038]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:Mobile Number is not as expected :  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:Mobile Number is not as expected :  expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation.testUserDetailsOnForm(VerifyDifferentUserCreation.java:90)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Continue with Email on Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserName TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserPassword TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button on Login Form]]>
+            </line>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Log in Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Drop Drown for more Actions]]>
+            </line>
+            <line>
+              <![CDATA[Returning Current User's Gender Type]]>
+            </line>
+            <line>
+              <![CDATA[Returning Current User's First Name ]]>
+            </line>
+            <line>
+              <![CDATA[Returning Current User's Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[Returning Current User's Email]]>
+            </line>
+            <line>
+              <![CDATA[Returning Current User's Mobile No. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserDetailsOnForm -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation@5faeada1]" name="CloseBrowser" is-config="true" duration-ms="9975" started-at="2018-02-17T01:09:00Z" finished-at="2018-02-17T01:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation -->
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails">
+        <test-method status="PASS" signature="LaunchBrowserLogin()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails@7a1ebcd8]" name="LaunchBrowserLogin" is-config="true" duration-ms="72022" started-at="2018-02-17T01:05:43Z" finished-at="2018-02-17T01:06:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Continue with Email on Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserName TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserPassword TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button on Login Form]]>
+            </line>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Log in Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserLogin -->
+        <test-method status="FAIL" signature="testPersonalInfoUI()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails@7a1ebcd8]" name="testPersonalInfoUI" duration-ms="21659" started-at="2018-02-17T01:06:55Z" finished-at="2018-02-17T01:07:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails.testPersonalInfoUI(VerifyPersonalInfoPageDetails.java:71)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Clicking On Profile Tab]]>
+            </line>
+            <line>
+              <![CDATA[Exception observedorg.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@id='myTab']/li/a[contains(text(),'Profile')]For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.VxElhwKoq28U, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 9f12b231-07b4-412f-95e0-b87e7b81c7a4*** Element info: {Using=xpath, value=//ul[@id='myTab']/li/a[contains(text(),'Profile')]}]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot....!]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_BlaBlaCar__the_trusted_community_for_sharing_your_city_to_city_car_travel___World_s_Largest_Carpooling_Community_20180217_010717.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPersonalInfoUI -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails@7a1ebcd8]" name="CloseBrowser" is-config="true" duration-ms="13890" started-at="2018-02-17T01:07:17Z" finished-at="2018-02-17T01:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails -->
+      <class name="blablacarB13.tests.common.LoginFeature">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="LaunchBrowser" is-config="true" duration-ms="17464" started-at="2018-02-17T01:09:10Z" finished-at="2018-02-17T01:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="FAIL" signature="logInwithFacebookValidDetails()[pri:1, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="logInwithFacebookValidDetails" duration-ms="12803" started-at="2018-02-17T01:09:28Z" finished-at="2018-02-17T01:09:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at blablacarB13.tests.common.LoginFeature.logInwithFacebookValidDetails(LoginFeature.java:85)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[checking if Connect With FaceBook is present on Login Form]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot....!]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_010941.png]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.ehFCjkvaWeFx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9968, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 78c7d9ca-de47-4b5b-8f34-4a77fd4e0c69*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInwithFacebookValidDetails -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="CloseBrowser" is-config="true" duration-ms="9724" started-at="2018-02-17T01:09:41Z" finished-at="2018-02-17T01:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="LaunchBrowser" is-config="true" duration-ms="14164" started-at="2018-02-17T01:09:50Z" finished-at="2018-02-17T01:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="FAIL" signature="logInwithUserDetails()[pri:2, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="logInwithUserDetails" duration-ms="22733" started-at="2018-02-17T01:10:04Z" finished-at="2018-02-17T01:10:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //ul[@id='myTab']/li/a[contains(text(),'Dashboard')]For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.galUu0Vsu5Eg, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=10888, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: c24647f1-3ea1-4fc7-9d70-7a804e14dfc2*** Element info: {Using=xpath, value=//ul[@id='myTab']/li/a[contains(text(),'Dashboard')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@id='myTab']/li/a[contains(text(),'Dashboard')]For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.galUu0Vsu5Eg, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=10888, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: c24647f1-3ea1-4fc7-9d70-7a804e14dfc2*** Element info: {Using=xpath, value=//ul[@id='myTab']/li/a[contains(text(),'Dashboard')]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)at blablacarB13.POMLib.dashboard.DashBoardPage.isDashboardTabVisible(DashBoardPage.java:14)at blablacarB13.tests.common.LoginFeature.logInwithUserDetails(LoginFeature.java:157)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[Entering in UserName TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot....!]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011017.png]]>
+            </line>
+            <line>
+              <![CDATA[Checking If Dashboard Tab present ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInwithUserDetails -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="CloseBrowser" is-config="true" duration-ms="7762" started-at="2018-02-17T01:10:27Z" finished-at="2018-02-17T01:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="LaunchBrowser" is-config="true" duration-ms="16016" started-at="2018-02-17T01:10:35Z" finished-at="2018-02-17T01:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="FAIL" signature="logInwithFacebookInvalidDetails()[pri:3, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="logInwithFacebookInvalidDetails" duration-ms="12695" started-at="2018-02-17T01:10:51Z" finished-at="2018-02-17T01:11:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at blablacarB13.tests.common.LoginFeature.logInwithFacebookInvalidDetails(LoginFeature.java:135)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Log in Button on Header Page]]>
+            </line>
+            <line>
+              <![CDATA[checking if Connect With FaceBook is present on Login Form]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot....!]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011104.png]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.dmv1qJG3U7yB, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=11404, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]Session ID: 3d2e2a5f-a415-49cf-a95f-657b3b1c922b*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInwithFacebookInvalidDetails -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:blablacarB13.tests.common.LoginFeature@528931cf]" name="CloseBrowser" is-config="true" duration-ms="3501" started-at="2018-02-17T01:11:04Z" finished-at="2018-02-17T01:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- blablacarB13.tests.common.LoginFeature -->
+    </test> <!-- login feature and Verify details of Signed in User -->
+  </suite> <!-- My Regression Automation suite -->
 </testng-results>

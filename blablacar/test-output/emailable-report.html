@@ -8,11 +8,206 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">112,006</td><td></td><td></td></tr>
+<tr><th colspan="7">My Regression Automation suite</th></tr>
+<tr><td><a href="#t0">login feature and Verify details of Signed in User</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">5</td><td class="num">323,890</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">blablacarB13.tests.profile.personalInfo.car.AddNewCar</td><td><a href="#m0">addNewCarValidDetails</a></td><td rowspan="1">1517888926578</td><td rowspan="1">13772</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">My Regression Automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">login feature and Verify details of Signed in User &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">blablacarB13.tests.common.LoginFeature</td><td><a href="#m0">logInwithFacebookInvalidDetails</a></td><td rowspan="1">1518810051518</td><td rowspan="1">12695</td></tr><tr class="failedeven"><td><a href="#m1">logInwithFacebookValidDetails</a></td><td rowspan="1">1518809968304</td><td rowspan="1">12803</td></tr><tr class="failedeven"><td><a href="#m2">logInwithUserDetails</a></td><td rowspan="1">1518810004999</td><td rowspan="1">22733</td></tr><tr class="failedodd"><td rowspan="1">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation</td><td><a href="#m3">testUserDetailsOnForm</a></td><td rowspan="1">1518809922926</td><td rowspan="1">17933</td></tr><tr class="failedeven"><td rowspan="1">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails</td><td><a href="#m4">testPersonalInfoUI</a></td><td rowspan="1">1518809815878</td><td rowspan="1">21659</td></tr><tr><th colspan="4">login feature and Verify details of Signed in User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation</td><td><a href="#m5">testUserDetailsOnForm</a></td><td rowspan="1">1518809875373</td><td rowspan="1">20064</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">blablacarB13.tests.profile.personalInfo.car.AddNewCar#addNewCarValidDetails</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Clicking on Add New Car Button<br/>Waiting for Number Plate Textbox...<br/>Setting value in Number Plate Textbox..<br/>Clicking on Continue Button on Add Number Plate Page<br/>Entering Car Model value in search box<br/>Selecting Car Model HYUNDAI<br/>Entering Car Model value in search box<br/>Selecting Car Model Grand i10<br/>Selecting Car Type Hatchback<br/>Selecting Car Color  Red<br/>Entering Manufacturing Year : 2017<br/>Waiting For Submit Button to get Enabled!<br/>Clicking on Submit Button..</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>login feature and Verify details of Signed in User</h2><h3 id="m0">blablacarB13.tests.common.LoginFeature#logInwithFacebookInvalidDetails</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click on Log in Button on Header Page<br/>checking if Connect With FaceBook is present on Login Form<br/>Taking ScreenShot....!<br/>Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011104.png<br/>Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'
+System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.dmv1qJG3U7yB, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=11404, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3d2e2a5f-a415-49cf-a95f-657b3b1c922b
+*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at blablacarB13.tests.common.LoginFeature.logInwithFacebookInvalidDetails(LoginFeature.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">blablacarB13.tests.common.LoginFeature#logInwithFacebookValidDetails</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click on Log in Button on Header Page<br/>checking if Connect With FaceBook is present on Login Form<br/>Taking ScreenShot....!<br/>Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_010941.png<br/>Test Case Failed  because of : org.openqa.selenium.NoSuchElementException: Unable to locate element: //div/a[@data-provider='facebook']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'
+System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.ehFCjkvaWeFx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9968, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 78c7d9ca-de47-4b5b-8f34-4a77fd4e0c69
+*** Element info: {Using=xpath, value=//div/a[@data-provider='facebook']}</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at blablacarB13.tests.common.LoginFeature.logInwithFacebookValidDetails(LoginFeature.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">blablacarB13.tests.common.LoginFeature#logInwithUserDetails</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click on Log in Button on Header Page<br/>Entering in UserName TextBox<br/>Taking ScreenShot....!<br/>Screenshot Taken. Find Details at :- \Result\Project_Log_in_to_your_BlaBlaCar_account___BlaBlaCar_20180217_011017.png<br/>Checking If Dashboard Tab present </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@id=&apos;myTab&apos;]/li/a[contains(text(),&apos;Dashboard&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9020&apos;, time: &apos;2017-08-21T17:54:21.164Z&apos;
+System info: host: &apos;LAPTOP-RSD3KNP9&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.galUu0Vsu5Eg, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=10888, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: c24647f1-3ea1-4fc7-9d70-7a804e14dfc2
+*** Element info: {Using=xpath, value=//ul[@id=&apos;myTab&apos;]/li/a[contains(text(),&apos;Dashboard&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at blablacarB13.POMLib.dashboard.DashBoardPage.isDashboardTabVisible(DashBoardPage.java:14)
+	at blablacarB13.tests.common.LoginFeature.logInwithUserDetails(LoginFeature.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation#testUserDetailsOnForm</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>amrutakotkar3@gmail.com</td><td>Amruta@38</td><td>Female</td><td>Amruta</td><td>Kotkar</td><td>amrutakotkar3@gmail.com</td><td>8412950038</td></tr><tr><th colspan="7">Messages</th></tr><tr><td colspan="7"><div class="messages">Click on Log in Button on Header Page<br/>Clicking on Continue with Email on Login Page<br/>Entering in UserName TextBox<br/>Entering in UserPassword TextBox<br/>Clicking on Login Button on Login Form<br/>Click on Log in Button on Header Page<br/>Log in Successfull<br/>Clicking on Drop Drown for more Actions<br/>Returning Current User's Gender Type<br/>Returning Current User's First Name <br/>Returning Current User's Last Name <br/>Returning Current User's Email<br/>Returning Current User's Mobile No. </div></td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Mobile Number is not as expected :  expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation.testUserDetailsOnForm(VerifyDifferentUserCreation.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails#testPersonalInfoUI</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click on Log in Button on Header Page<br/>Login Failed<br/>Clicking On Profile Tab<br/>Exception observedorg.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@id='myTab']/li/a[contains(text(),'Profile')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'
+System info: host: 'LAPTOP-RSD3KNP9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\amruta\AppData\Local\Temp\rust_mozprofile.VxElhwKoq28U, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 9f12b231-07b4-412f-95e0-b87e7b81c7a4
+*** Element info: {Using=xpath, value=//ul[@id='myTab']/li/a[contains(text(),'Profile')]}<br/>Taking ScreenShot....!<br/>Screenshot Taken. Find Details at :- \Result\Project_BlaBlaCar__the_trusted_community_for_sharing_your_city_to_city_car_travel___World_s_Largest_Carpooling_Community_20180217_010717.png</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails.testPersonalInfoUI(VerifyPersonalInfoPageDetails.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation#testUserDetailsOnForm</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>avdhut.kotkar@yahoo.com</td><td>selenium@1793</td><td>Male</td><td>Avdhut</td><td>Kotkar</td><td>avdhut.kotkar@yahoo.com</td><td>8412950036</td></tr><tr><th colspan="7">Messages</th></tr><tr><td colspan="7"><div class="messages">Click on Log in Button on Header Page<br/>Clicking on Continue with Email on Login Page<br/>Entering in UserName TextBox<br/>Entering in UserPassword TextBox<br/>Clicking on Login Button on Login Form<br/>Click on Log in Button on Header Page<br/>Log in Successfull<br/>Clicking on Drop Drown for more Actions<br/>Returning Current User's Gender Type<br/>Returning Current User's First Name <br/>Returning Current User's Last Name <br/>Returning Current User's Email<br/>Returning Current User's Mobile No. </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

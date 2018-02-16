@@ -3,9 +3,10 @@
 <suite name="My Regression Automation suite">
   <test verbose="2" name="login feature and Verify details of Signed in User">
     <classes>
-      <class name="blablacarB13.tests.profile.personalInfo.VerifyPersonalInfoPageDetails"/>
-      <class name="blablacarB13.tests.profile.personalInfo.VerifyDifferentUserCreation"/>
-      <class name="blablacarB13.tests.common.LoginFeature"/>
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyPersonalInfoPageDetails"/>
+      <class name="blablacarB13.tests.profile.personalInfo.personalInformation.VerifyDifferentUserCreation"/>
+     <!--   <class name="blablacarB13.tests.common.LoginFeature"/> --> 
+     
       
     </classes>
   </test> <!-- Default test -->   

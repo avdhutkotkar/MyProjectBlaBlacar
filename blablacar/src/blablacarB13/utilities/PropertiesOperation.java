@@ -2,6 +2,7 @@ package blablacarB13.utilities;
 
 import java.io.FileInputStream;
 import java.io.BufferedInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -21,7 +22,12 @@ public class PropertiesOperation {
 	/**
 	 * Generic values will be handled in this class
 	 */
-	public static String filename1= "D:/Eclipse_WorkSpace/blablacar/src/blablacarB13/utilities/config.properties";
+	static String basePath = new File("").getAbsolutePath();
+	//gets absolute path till the project
+	
+	public static String filename1 = basePath.concat("/src/blablacarB13/utilities/config.properties");
+	
+//	public static String filename1= "D:/Eclipse_WorkSpace/blablacar/src/blablacarB13/utilities/config.properties";
 	
 	public String getRadicalValueBykey(String key){
 		String value="";

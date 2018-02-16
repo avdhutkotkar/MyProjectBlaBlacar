@@ -16,7 +16,7 @@ public class LoginPage {
 	String userNameLoc = "//input[@type='email']";
 	String userPwdLoc = "//input[@type='password']";
 	String loginBtnLoc = "//button[@type='submit']";
-	String continueWithFaceBookBtnLoc = "//div/a[@data-provider='facebook']";
+	String continueWithFaceBookBtnLoc = "//span[contains(text(),'Continue with Facebook')]";
 	String continueWithEmailBtnLoc ="//span[contains(text(),'Continue with email')]";
 	String FbLoginError = "//div/div[contains(text(),'Incorrect email address or phone number')]";
 	
